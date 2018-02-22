@@ -1,0 +1,150 @@
+{
+	"news": [
+	    {
+			"postId": 1,
+			"imageURL": "https://images.unsplash.com/photo-1475669913832-fd187510b578",
+			"title": "John's Back",
+			"text": "Nulla dui Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellllus. porta. Fusce suscipit varius mium sociis totdnatibus et magis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consec tetuer adipiscing. Praesent vestibu lum molestie lacuiirhs. Aenean non ummy hendreriauris. Pellentesque sed dolor.",
+			"postDate": "2016-10-14",
+			"moreLink": ""
+	    },
+	    {
+			"postId": 3,
+			"imageURL": "https://images.unsplash.com/photo-1431069767777-c37892aa0a07",
+			"title": "New Album",
+			"text": "Phasellllus. porta. Lorem ipsum dolor sit amet, consec tetuer adipiscing. Praesent vestibu lum molestie lacuiirhs. Aenean non ummy hendreriauris. Nulla dui Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Fusce suscipit varius mium sociis totdnatibus et magis dis parturient montes, nascetur ridiculus mus.",
+			"postDate": "2016-12-05",
+			"moreLink": ""
+	    },
+	    {
+			"postId": 4,
+			"imageURL": "https://images.unsplash.com/photo-1484319047745-8312fb87003c",
+			"title": "Save the Children",
+			"text": "Aenean non ummy hendreriauris. Phasellllus. porta. Fusce suscipit varius mium sociis totdnatibus et magis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consec tetuer adipiscing. Praesent vestibu lum molestie lacuiirhs. Nulla dui Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.",
+			"postDate": "2016-12-24",
+			"moreLink": ""
+	    },		
+	    {
+			"postId": 5,
+			"imageURL": "https://images.unsplash.com/photo-1454486837617-ce8e1ba5ebfe",
+			"title": "Just Dance",
+			"text": "Lorem ipsum dolor sit amet, consec tetuer adipiscing. Phasellllus. porta. Fusce suscipit varius mium sociis totdnatibus et magis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consec tetuer adipiscing. Praesent vestibu lum molestie lacuiirhs. Aenean non ummy hendreriauris. Nulla dui Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.",
+			"postDate": "2017-01-22",
+			"moreLink": ""
+	    },		
+	    {
+			"postId":7,
+			"imageURL": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618",
+			"title": "The Top 20",
+			"text": "Fusce suscipit varius mium sociis totdnatibus et magis dis parturient montes, nascetur ridiculus mus. Praesent vestibu lum molestie lacuiirhs. Aenean non ummy hendreriauris. Nulla dui Fusce euismod consequat ante. Phasellllus. porta. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.",
+			"postDate": "2017-02-08",
+			"moreLink": ""
+	    },		
+	    {
+			"postId": 8,
+			"imageURL": "https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7",
+			"title": "Tour Announced",
+			"text": "Phasellllus. porta. Fusce suscipit varius mium sociis totdnatibus et magis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consec tetuer adipiscing. Praesent vestibu lum molestie lacuiirhs. Aenean non ummy hendreriauris. Nulla dui Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.",
+			"postDate": "2017-02-26",
+			"moreLink": ""
+	    }
+	],
+	"events": [
+		{
+			"eventId": 101,
+			"sponsor": "",
+			"date": "2017-11-14",
+			"state": "FL",
+			"city": "Orlando",
+			"venue": "Full Sail University",
+			"locationURL": "https://www.google.com/maps?q=full+sail+university&ion=1&espv=2&bav=on.2,or.&bvm=bv.148073327,d.eWE&biw=1292&bih=738&dpr=2.2&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjAwpfamK7SAhXG1CYKHRXXD9oQ_AUIBigB",
+			"ticketsURL": "https://www.stubhub.com/full-sail-live-tickets/venue/444101/"
+		},
+		{
+			"eventId": 167,
+			"sponsor": "Nemours Childrens Hospital",
+			"date": "2017-11-16",
+			"state": "FL",
+			"city": "Orlando",
+			"venue": "Amway Center",
+			"locationURL": "https://www.google.com/maps?espv=2&q=amway+center&bav=on.2,or.&biw=1292&bih=738&dpr=2.2&ion=1&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjTgOThmK7SAhUFPiYKHVBYAb4Q_AUIBigB",
+			"ticketsURL": "http://amway.centerorlando.com/?gclid=CMvmxOOYrtICFQsRgQodZzgHbg"
+		},
+		{
+			"eventId": 168,
+			"sponsor": "",
+			"date": "2017-12-03",
+			"state": "GA",
+			"city": "Atlanta",
+			"venue": "Terminal West",
+			"locationURL": "https://www.google.com/maps/place/Terminal+West/@33.781769,-84.4183655,17z/data=!3m1!4b1!4m5!3m4!1s0x88f504eab10102ff:0x52b7ba5068df4eca!8m2!3d33.781769!4d-84.4161768",
+			"ticketsURL": "http://terminalwestatl.com/"
+		},		
+		{
+			"eventId": 187,
+			"sponsor": "Autism Speaks",
+			"date": "2018-12-09",
+			"state": "NC",
+			"city": "Charlotte",
+			"venue": "The Fillmore Charlotte",
+			"locationURL": "https://www.google.com/maps?q=fillmore+charlotte&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiN1NqLma7SAhWFKiYKHQhnCFwQ_AUICCgB",
+			"ticketsURL": "http://www.fillmorecharlottenc.com/"
+		},
+		{
+			"eventId": 211,
+			"sponsor": "",
+			"date": "2018-01-10",
+			"state": "MD",
+			"city": "Baltimore",
+			"venue": "Baltimore Soundstate",
+			"locationURL": "https://www.google.com/maps?q=baltimore+soundstage&ion=1&espv=2&bav=on.2,or.&bvm=bv.148073327,d.eWE&biw=1292&bih=738&dpr=2.2&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj6qNHama7SAhVD6iYKHb9hCAEQ_AUIBigB",
+			"ticketsURL": "http://www.baltimoresoundstage.com/"
+		},
+		{
+			"eventId": 223,
+			"sponsor": "",
+			"date": "2018-02-05",
+			"state": "OH",
+			"city": "Cleveland",
+			"venue": "House of Blues",
+			"locationURL": "https://www.google.com/maps?q=house+of+blues+cleveland&ion=1&espv=2&bav=on.2,or.&bvm=bv.148073327,d.eWE&biw=1292&bih=738&dpr=2.2&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiK5b6Umq7SAhUIZCYKHQKRB70Q_AUIBigB",
+			"ticketsURL": "http://www.houseofblues.com/cleveland/concert-events"
+		}
+	],
+	"members": [
+		{
+			"imageURL": "https://images.unsplash.com/photo-1475636729227-1043bc86662b",
+			"firstname": "Brandy",
+			"lastname": "James",
+			"instrument": "Vocals"
+		},
+		{
+			"imageURL": "https://images.unsplash.com/photo-1475669913832-fd187510b578",
+			"firstname": "John",
+			"lastname": "Smith",
+			"instrument": "Guitar"
+		},
+		{
+			"imageURL": "https://images.unsplash.com/photo-1476900966873-ab290e38e3f7",
+			"firstname": "Tim",
+			"lastname": "Pentz",
+			"instrument": "Bass"
+		},
+		{
+			"imageURL": "https://images.unsplash.com/photo-1477597073867-a0c34dba8be5",
+			"firstname": "Jessica",
+			"lastname": "Strong",
+			"instrument": "Keyboard"
+		},
+		{
+			"imageURL": "https://images.unsplash.com/photo-1476147578954-fffd6bf00ab0",
+			"firstname": "Nick",
+			"lastname": "Keith",
+			"instrument": "Drums"
+		}		
+	],
+	"about": {
+		"quote": "Until I realized that rock music was my connection to the rest of the human race, I felt like I was dying, for some reason, and I didn't know why.",
+		"copy": "Phasellllus. porta. Fusce suscipit varius mium sociis totdnatibus et magis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consec tetuer adipiscing. Praesent vestibu lum molestie lacuiirhs. Aenean non ummy hendreriauris. Nulla dui Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor."
+	}
+}

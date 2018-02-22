@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Band Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Font: Hind -->
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,600" rel="stylesheet">
+    <!-- Shared Styles -->
+    <link rel="stylesheet" href="css/shared.css">
+    <!-- Index Styles -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Event Styles -->
+    <link rel="stylesheet" href="css/events.css">
+  </head>
+  <body>
+
+    <!-- Top -->
+    <header>
+      <!-- Band Name Image -->
+      <a href="index.html">
+        <img src="images/RockBand.png" alt="Rock Band Name">
+      </a>
+
+      <!-- Navigation -->
+      <nav>
+        <ul>
+          <li><a href="news.html">News</a></li>
+          <li><a href="events.html">Tour Dates</a></li>
+          <li><a href="timeline.html">About the Band</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Latest Single -->
+      <section></section>
+      <div class="container">
+        <!-- Label -->
+        <h2>Latest Single</h2>
+        <h6>Album Title</h6>
+
+        <!-- Video -->
+        <audio controls>
+          <source src="images/video.mp4" type="video/mp4">
+        </audio>
+
+        <!-- Buy Album Link -->
+        <div class="skew-album"></div>
+        <a href="">Buy Album</a>
+      </div>
+    </header>
+
+    <!-- Latest News -->
+    <section class="section-news">
+      <!-- Heading -->
+      <div class="section-header-wrap-news">
+        <h5>Latest <span>Band News</span></h5>
+      </div>
+
+      <div class="news-items">
+
+        <!-- Featured News Card -->
+        <article class="news news-featured"></article>
+
+        <!-- News Card List -->
+        <ul class="news-list"></ul>
+      </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section class="section-events">
+      <!-- Heading -->
+      <div class="section-header-wrap-events">
+        <h5>Live <span>Events</span></h5>
+      </div>
+      
+      <div class="skew-tour"></div>
+      <div class="tour-name">
+        <h2>Tour name <span>Tour 2017</span></h2>
+      </div>
+
+      <!-- List of Events -->
+      <table class="event-list"></table>
+
+      <!-- View All Events -->
+      <article>
+        <div class="skew-events"></div>
+        <a href="events.html">View More</a>
+      </article>
+    </section>
+    <section class="section-events-bg"></section>
+
+    <!-- About Band -->
+    <section class="section-band">
+      <!-- Heading -->
+      <div class="section-header-wrap-band">
+        <h5>About <span>The Band</span></h5>
+      </div>
+
+      <!-- Description -->
+      <div class="section-band-about">
+        <section class="band-description"></section>
+
+        <!-- Timeline -->
+        <article>
+          <div class="skew-members"></div>
+          <a href="timeline.html">View Timeline</a>
+        </article>
+      </div>
+
+      <!-- Band Photos -->
+      <ul class="members-list"></ul>
+    </section>
+
+    <!-- Contact -->
+    <footer>
+      <h4><a href="">Newsletter</a></h4>
+      <img class="social-icon facebook">
+      <img class="social-icon twitter">
+      <img class="social-icon youtube">
+      <img class="social-icon google">
+      <img class="social-icon instagram">
+      <h4><a href="contact.html">Contact</a></h4>
+    </footer>
+
+    
+    <!-- Main JS -->
+    <script src="js/content.js"></script>
+    <!-- Events JS -->
+    <script src="js/events.js"></script>
+    
+  </body>
+</html>

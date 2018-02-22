@@ -1,0 +1,120 @@
+.contact-top {
+  background: #fafafa;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.contact-details {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  margin: 3%;
+}
+
+.contact-details h1 {
+  color: #222;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+address {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.contact-details p {
+  display: flex;
+  font-weight: 300;
+  justify-content: space-between;
+  margin: 0;
+  width: 230px;
+}
+
+.contact-details a {
+  color: #888;
+  text-decoration: none;
+}
+
+.contact-top img {
+  flex-basis: 40%;
+  margin: 3%;
+}
+
+.contact-bottom {
+  align-items: center;
+  background: url('../images/nycity.png') bottom center no-repeat;
+  background-color: #222;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+
+.contact-bottom h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+}
+
+form > div {
+  color: #D14E42;
+  flex-basis: 100%;
+  height: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+form input {
+  flex-basis: 31%;
+  font-size: 18px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+input:invalid { 
+  border: 2px solid #D14E42;
+}
+
+form textarea {
+  flex-basis: 100%;
+  font-size: 18px;
+}
+
+form .message-valid {
+  color: #eee;
+  flex-basis: 100%;
+  height: 30px;
+  letter-spacing: 1px;
+  margin: 15px 0;
+  text-align: end;
+}
+
+.message-invalid {
+  color: #D14E42 !important;
+}
+
+input[type=submit] {
+  background: transparent;
+  border: none;
+  color: #eee;
+  font-size: 18px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+input[type=submit]:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background: #eee;
+}

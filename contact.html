@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Font: Hind -->
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,600" rel="stylesheet">
+    <!-- Shared Styles -->
+    <link rel="stylesheet" href="css/shared.css">
+    <!-- Shared Styles -->
+    <link rel="stylesheet" href="css/contact.css">
+  </head>
+  <body>
+
+    <!-- Top -->
+    <header>
+      <!-- Band Name Image -->
+      <a href="index.html">
+        <img src="images/RockBand.png" alt="Rock Band Name">
+      </a>
+
+      <!-- Navigation -->
+      <nav>
+        <ul>
+          <li><a href="news.html">News</a></li>
+          <li><a href="events.html">Tour Dates</a></li>
+          <li><a href="timeline.html">About the Band</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Latest Single -->
+      <section></section>
+      <div class="container">
+        <!-- Label -->
+        <h2>Latest Single</h2>
+        <h6>Album Title</h6>
+
+        <!-- Video -->
+        <audio controls>
+          <source src="images/video.mp4" type="video/mp4">
+        </audio>
+
+        <!-- Buy Album Link -->
+        <div class="skew-album"></div>
+        <a href="">Buy Album</a>
+      </div>
+    </header>
+
+    <!-- Contact Info -->
+    <section class="contact-top">
+
+      <!-- Details -->
+      <div class="contact-details">
+        <h1>Contact Info</h1>
+        <address>
+          3300 University Boulevard <br>
+          Winter Park, Florida 32792
+        </address>
+        <p>
+          Telephone: 
+          <a href="tel:800-226-7625">
+            800.226.7625
+          </a>
+        </p>
+        <p>
+          E-mail: 
+          <a href="mailto:info@fullsail.edu.com">
+            info@fullsail.edu
+          </a>
+        </p>
+      </div>
+
+      <!-- Map -->
+      <img src="images/map.png" alt="map">
+    </section>
+
+    <!-- Message Form -->
+    <div class="contact-bottom">
+      <h1>Feedback</h1>
+      <form>
+        <div class="err-msg"></div>
+        <input type="text" name="name" placeholder="name">
+        <input type="email" name="email" placeholder="email" class="input-email">
+        <input type="tel" name="phone" placeholder="phone" class="input-phone">
+        <textarea rows="3" placeholder="message" class="input-message"></textarea>
+        <div class="message-valid"><span class="text-count">0</span>/150</div>
+        <input type="submit" value="SEND MESSAGE">
+      </form>
+    </div>
+
+    <!-- Contact -->
+    <footer>
+      <h4><a href="">Newsletter</a></h4>
+      <img class="social-icon facebook">
+      <img class="social-icon twitter">
+      <img class="social-icon youtube">
+      <img class="social-icon google">
+      <img class="social-icon instagram">
+      <h4><a href="contact.html">Contact</a></h4>
+    </footer>
+
+
+    <!-- Main JS -->
+    <script src="js/content.js"></script>
+    <!-- Main JS -->
+    <script src="js/events.js"></script>
+
+  </body>
+</html>

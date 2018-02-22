@@ -1,0 +1,119 @@
+.band-vision {
+  background: #fafafa;
+  color: #222;
+  padding: 150px 50px 0px;
+}
+
+.band-vision h1 {
+  font-size: 35px;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+}
+
+.band-description {
+  padding: 30px;
+}
+
+.band-description em {
+  font-weight: 600;
+}
+
+.band-description p {
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.stat-icon {
+  background: #eee;
+  height: 100px;
+  width: 100px;
+}
+
+.filter {    
+  -webkit-mask: url('../images/filter.svg') center / contain no-repeat;
+}
+
+.headset {
+  -webkit-mask: url('../images/headset.svg') center / contain no-repeat;
+}
+
+.star {
+  -webkit-mask: url('../images/star.svg') center / contain no-repeat;
+}
+
+table {
+  border-collapse: collapse; 
+  height: 355px;
+  width: 100%;
+}
+
+th {
+  height: 60%;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+th:nth-child(1), th:nth-child(3) {
+  background: #9b59b6;
+}
+
+th:nth-child(2) {
+  background: #7b3c90;
+}
+
+td {
+  color: #eee;
+  text-align: center;
+  vertical-align: top;
+}
+
+td:nth-child(1), td:nth-child(3) {
+  background: #9b59b6;
+}
+
+td:nth-child(2) {
+  background: #7b3c90;
+}
+
+td h4, p {
+  margin: 0;
+}
+
+.timeline-band {
+  background: url('../images/nycity.png') bottom center no-repeat;
+  background-color: #222;
+  height: 670px;
+}
+
+.timeline-band ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-band li {
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.timeline-band h3 {
+  color: #eee;
+  font-size: 25px;
+}
+
+.timeline-band h4 {
+  color: #9b59b6;
+}
+
+.timeline-band img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+footer {
+  background: #eee;
+}

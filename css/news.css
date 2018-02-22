@@ -1,0 +1,87 @@
+.news-body {
+  background: #fafafa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.news-body h1 {
+  background: #fafafa;
+  color: #222;
+  flex-basis: 100%;
+  font-size: 50px;
+  margin: 0;
+  padding-top: 10%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.featured-article {
+  background: url('../images/grunge2.png') top center no-repeat;
+  background-color: #222;
+  color: #eee;
+  flex-basis: 43%;
+  min-width: 375px;
+  padding: 100px 20px;
+}
+
+.featured-article h2 {
+  color: #ccc;
+}
+
+.featured-article .article-body {
+  display: flex;
+  height: 400px;
+}
+
+.featured-article img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+aside {
+  background: url('../images/grunge2.png') top center no-repeat;
+  background-color: #222;
+  color: #eee;
+  display: flex;
+  flex-basis: 43%;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 20px;
+}
+
+aside > h2 {
+  border-bottom: 2px solid #9859B6;
+  color: #ccc;
+  text-align: center;
+  margin: 0 auto;
+}
+
+aside h4 {
+  color: #9859B6;
+}
+
+aside ul {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 20px 0 0 0; 
+  text-transform: uppercase;
+}
+
+aside ul li {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+aside ul img {
+  height: 150px;
+  object-fit: cover;
+  margin: 0 40px;
+  width: 150px;
+}
+
+footer {
+  background: #fafafa;
+}

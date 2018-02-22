@@ -1,0 +1,227 @@
+.section-news {
+  background: #fafafa;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.section-header-wrap-news {
+  border-left: 5px solid #ccc;
+  height: 85px;
+  width: 85%;
+}
+
+.section-header-wrap-news h5 {
+  color: #888;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  text-indent: 10px; 
+  text-transform: uppercase;
+}
+
+.section-header-wrap-news h5 span {
+  color: #444;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+/* News Cards */
+.news-items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+}
+
+.news-item-active {
+  background: #9859B6 !important;
+  opacity: 1 !important;
+}
+
+/* Featured */
+.news-featured {
+  height: 500px;
+  margin-top: 30px;
+  flex-basis: 480px;
+  position: relative;
+}
+
+.news-featured > div {
+  height: 100%;
+  width: 100%;
+}
+
+.news-featured h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.news-featured .details {
+  background: #222;
+  color: #eee;
+  padding: 10px 20px;
+  opacity: 0.9;
+  position: absolute;
+  top: 325px;
+}
+
+.news img {
+  filter: grayscale(1) brightness(0.9);
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.img-active {
+  filter: grayscale(0) brightness(1) !important;
+}
+
+/* List and details */
+.news-list {
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+}
+
+.news-list li {
+  flex-basis: 230px;
+  height: 240px;
+  margin: 12px;
+  position: relative;
+}
+
+.news-list .details {
+  background: #222;
+  color: #eee;
+  padding: 10px 9px;
+  opacity: 0.9;
+  position: absolute;
+  top: 120px;
+}
+
+.news-items .details h4, h2 {
+  color: #eee;
+  font-size: 25px;
+  margin: 0;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.news-items .details h4 {
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.under {
+  border-bottom: 5px solid #ccc;
+  left: 10px;
+  margin-top: 20px;
+  opacity: 0.7;
+  position: absolute;
+  width: 50%;
+}
+
+.under-active {
+  border-bottom: 5px solid #9859B6 !important;
+  opacity: 1 !important;
+}
+
+/* Band Members */
+.section-band {
+  align-items: flex-start;
+  background: url('../images/nycity.png') no-repeat 15% 100%;
+  background-color: #222;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0 200px 0;
+}
+
+.section-header-wrap-band {
+  border-left: 5px solid #ccc;
+  height: 85px;
+  width: 85%;
+}
+
+.section-header-wrap-band h5 {
+  color: #A5A5A5;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  text-indent: 10px; 
+  text-transform: uppercase;
+}
+
+.section-header-wrap-band h5 span {
+  color: #eee;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.section-band-about {
+   flex-basis: 50%; 
+}
+
+.band-description {
+  color: #888;
+  letter-spacing: 1.25px;
+  margin-top: 50px;
+}
+
+.band-description em {
+  color: #ccc;
+  font-weight: 600;
+}
+
+.band-description p {
+  font-weight: 300;
+}
+
+.members-list {
+  display: flex;
+  flex-basis: 30%;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.section-band img {
+  filter: grayscale(1) opacity(0.9);
+  height: 75px;
+  margin: 5px;
+  object-fit: cover;
+  width: 150px;
+}
+
+.section-band img:hover {
+  filter: grayscale(0) opacity(1);
+}
+
+.skew-members {
+  background: #9859B6;
+  border-bottom: 5px solid #783C90 !important;
+  height: 40px;
+  margin-top: 34px;
+  transform-origin: 0% 50%;
+  transform: perspective(50px) rotateX(-20deg);
+  width: 130px;
+}
+
+.section-band article {
+  width: 130px;
+}
+
+.section-band article a {
+  color: #eee;
+  font-size: 14px;
+  font-weight: 600;
+  margin: -37px 0 0 10px;
+  position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+}
